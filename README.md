@@ -47,18 +47,23 @@ To run the RESTful API:
 ```
 node api.js
 ```
+Then, navigate to your local host on port `8000`
 
 ## RESTful API endpoints
 
 To see star information:
 
 ```
-GET: /star/:starId
+GET /star/:starId
 ```
 
 ## Running the tests
 
-To run smart contract unit tests, cd to the `smart_contracts` folder and run:
+To run smart contract unit tests:
+
+First, run a local blockchain using [ganache](https://truffleframework.com/ganache). 
+
+Then, cd to the `smart_contracts` folder and run:
 
 ```
 truffle test
@@ -79,7 +84,3 @@ Tests are broken down to four categories:
 ## Author
 
 **German Espitia** - [espitia7](https://espitia7)
-
-## Built for
-
-* Udacity Blockchain Nanodegree
