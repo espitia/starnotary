@@ -22,7 +22,7 @@ The project uses the following libraries:
 
 ### Installing
 
-To install the dependencies:
+To install the dependencies, inside the `smart_contracts` directory:
 
 ```
 npm install
