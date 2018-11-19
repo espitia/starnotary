@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Star Notary</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="./style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header" id="page-header">
+        <h1>Star Notary</h1>
+        <p>Interact with the StarNotary contract at <a target="_blank" href="https://rinkeby.etherscan.io/address/0x54a541b45ef7c2b718691f6df1cd53b3fb7e752a">0x54a541B45eF7C2B718691F6Df1CD53b3fb7e752a</a> (rinkeby)</p>
+      </div>
+
+      <!-- claim star -->
+      <h3>Claim a Star</h3>
+      <form id='claim-star-form'>
+        <label>Name</label>
+        <div class="form-group">
+          <input type="text" class="form-control" id="name" placeholder="Name of star">
+        </div>
+        <label>Story</label>
+        <div class="form-group">
+          <input type="text" class="form-control" id="story" placeholder="Story">
+        </div>
+
+        <label>Coordinates</label>
+        <div class="form-group">
+            <input type="text" class="form-control" id="dec" placeholder="Dec">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="mag" placeholder="Mag">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="cent" placeholder="Cent">
+        </div>
+
+        <button type="button" class="btn btn-success" onclick="claimStarClicked()">CLAIM STAR</button>
+
+      </form>
+
+        <!-- look up star by id -->
+        <h3>Look up star by ID</h3>
+        <form id='look-up-star-form'>
+            <div class="form-group">
+                <input type="text" class="form-control" id="starId" placeholder="Star ID">
+            </div>
+    
+            <button type="button" class="btn btn-success" onclick="lookUpStarByIdClicked()">FIND IT</button>
+        </form>
+        
+      
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Project for <a href="" target="_blank">Udacity Blockchain Nanodegree</a> by <a href="https://twitter.com/espitia7/" target="_blank">espitia7</a></p>
+      </div>
+    </footer>
+
+    <script src="./contract-interactions.js"></script>
+    <script src="./api.js"></script>
+  </body>
+</html>
