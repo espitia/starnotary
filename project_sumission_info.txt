@@ -1,0 +1,12 @@
+Contract address:
+0x54a541B45eF7C2B718691F6Df1CD53b3fb7e752a
+
+Transaction hash for contract creation:
+0x1cc64c90a06a1c21bc94067ab4120b85d4266c57eb9d254aa21017bb998768f8
+
+Transaction hash for new star:
+0x3ea4805ebe383a79c96b7d016071d826bdfafe01b9cc58c7582135aff5953866
+
+Token ID:
+67374270546456469431070117
+
