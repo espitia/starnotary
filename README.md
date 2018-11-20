@@ -42,12 +42,12 @@ Then, navigate to your local host on port `8080`
 http://localhost:8080/
 ```
 
-To run the RESTful API:
+To run the RESTful API, cd to the `libs` folder and run:
 
 ```
 node api.js
 ```
-Then, navigate to your local host on port `8000`
+Then, you can call the API using the endpoint below:
 
 ## RESTful API endpoints
 
