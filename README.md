@@ -83,4 +83,4 @@ Tests are broken down to four categories:
 
 ## Author
 
-**German Espitia** - [espitia7](https://espitia7)
+**German Espitia** - [espitia7](https://twitter.com/espitia7)
